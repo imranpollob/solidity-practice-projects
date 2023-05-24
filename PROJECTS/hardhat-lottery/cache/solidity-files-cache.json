@@ -1,10 +1,54 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/pollmix/blockchain/solidity-practice-projects/PROJECTS/hardhat-lottery/contracts/Lottery.sol": {
-      "lastModificationDate": 1684883732598,
-      "contentHash": "838dd93ee3eb0951d1b7c62400c596a5",
+    "/home/imran/blockchain/solidity-practice-projects/PROJECTS/hardhat-lottery/contracts/Lottery.sol": {
+      "lastModificationDate": 1684896664878,
+      "contentHash": "9bb3d58f2deb2991501db2aba18b72ee",
       "sourceName": "contracts/Lottery.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "Lottery"
+      ]
+    },
+    "/home/imran/blockchain/solidity-practice-projects/PROJECTS/hardhat-lottery/node_modules/@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol": {
+      "lastModificationDate": 1684894942964,
+      "contentHash": "eb9cc526ef59dfc4d644f56ddca0633a",
+      "sourceName": "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol",
       "solcConfig": {
         "version": "0.8.18",
         "settings": {
@@ -37,10 +81,10 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.18"
+        "^0.8.4"
       ],
       "artifacts": [
-        "Lottery"
+        "VRFConsumerBaseV2"
       ]
     }
   }

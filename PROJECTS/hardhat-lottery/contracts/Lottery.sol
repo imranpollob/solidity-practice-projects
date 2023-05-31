@@ -5,7 +5,10 @@ import "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol";
 
 error Lottery__NotEnoughETHEntered();
 
+
 contract Lottery is VRFConsumerBaseV2 {
+    enum LotteryState { OPEN, CALCULATING }
+
     uint private immutable i_entranceFee;
     address payable[] private s_players; 
 

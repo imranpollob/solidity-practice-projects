@@ -11,17 +11,17 @@ Properties of an interface are given below:
 - Can inherit form other interfaces
 */
 
-interface ICounter {
-    function count() external view returns (uint);
-    function increment() external;
-}
-
 contract Counter {
     uint public count;
 
     function increment() external {
         count += 1;
     }
+}
+
+interface ICounter {
+    function count() external view returns (uint);
+    function increment() external;
 }
 
 contract MyContract {

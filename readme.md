@@ -12,3 +12,11 @@ Software Used:
   - Solidity Language & Themes (only) - tintinweb
 - Ganache
 - Node ^18
+
+Helpful resources:
+- https://docs.soliditylang.org/en/v0.8.19/solidity-by-example.html
+- https://solidity-by-example.org/
+- https://github.com/RareSkills/Solidity-Exercises
+- https://github.com/raineorshine/solidity-by-example
+- https://github.com/AmazingAng/WTF-Solidity
+- https://github.com/orgs/dappuniversity/repositories

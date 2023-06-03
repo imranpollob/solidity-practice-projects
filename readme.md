@@ -17,6 +17,9 @@ Helpful resources:
 - https://docs.soliditylang.org/en/v0.8.19/solidity-by-example.html
 - https://solidity-by-example.org/
 - https://github.com/RareSkills/Solidity-Exercises
-- https://github.com/raineorshine/solidity-by-example
+- https://github.com/samnang/solidity-examples
 - https://github.com/AmazingAng/WTF-Solidity
 - https://github.com/orgs/dappuniversity/repositories
+
+Tracker:
+[Notion Tracker Site](https://imranpollob.notion.site/imranpollob/Solidity-Practice-Tracker-8e603153ee6c4c9fa329277df07a4d76)

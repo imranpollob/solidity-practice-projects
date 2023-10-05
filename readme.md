@@ -2,67 +2,64 @@
 The word "project" may not be appropriate here but the core idea is writing solidity code.
 
 ## Folder Structure
-```text
-    📂 1_Intro
-      📂 01 hello world
-      📂 02 primtive data types
-      📂 03 variable & constants
-      📂 04 handling state variable
-      📂 05 ether and wei
-      📂 06 gas
-      📂 07 mapping
-      📂 08 array
-      📂 09 enum
-      📂 10 struct
-      📂 11 data locations
-      📂 12 function
-      📂 13 error
-      📂 14 event
-      📂 15 oop
-      📂 16 interface
-      📂 17 payable
-      📂 18 send & receive ether
-      📂 18.1 send transfer call
-      📂 19 call
-      📂 19.1 delegate call
-      📂 20 call from another contract
-      📂 21 new
-      📂 22 try catch
-      📂 23 import
-      📂 24 library
-      📂 25 ABI
-      📂 26 hashing
-      📂 27 gas optimization
-      📂 28 unchecked math
-      📂 29 modifier inheritance
-      📂 30 self destruct
-    📂 2_Apps
-      📂 01 ether wallet
-      📂 02 multisig wallet
-      📂 03 cofee ERC20
-      📂 04 candy nft ERC721
-    📂 3_Hack
-      📂 01 re-entrancy
-      📂 02 overflow underflow
-      📂 03 self destruct
-      📂 04 storage collision
-    📂 4_PROJECTS
-      📄 attack-on-ppswap.md
-      📄 ethers-js-practice.md
-      📄 ethers-js-storage.md
-      📄 foundry-basics.md
-      📂 foundry-tests
-      📄 hardhat-fund-me.md
-      📄 hardhat-ganache.md
-      📂 hardhat-lottery
-      📄 hardhat-storage.md
-      📄 hardhat-web3-blog.md
-      📄 remix-fund-me.md
-    📄 readme.md
-    📄 t1.md
-    📄 test.md
-    📄 update_readme.py
-```
+  - [📂 1_Intro](/1_Intro)
+    - [📂 01 hello world](/01 hello world)
+    - [📂 02 primtive data types](/02 primtive data types)
+    - [📂 03 variable & constants](/03 variable & constants)
+    - [📂 04 handling state variable](/04 handling state variable)
+    - [📂 05 ether and wei](/05 ether and wei)
+    - [📂 06 gas](/06 gas)
+    - [📂 07 mapping](/07 mapping)
+    - [📂 08 array](/08 array)
+    - [📂 09 enum](/09 enum)
+    - [📂 10 struct](/10 struct)
+    - [📂 11 data locations](/11 data locations)
+    - [📂 12 function](/12 function)
+    - [📂 13 error](/13 error)
+    - [📂 14 event](/14 event)
+    - [📂 15 oop](/15 oop)
+    - [📂 16 interface](/16 interface)
+    - [📂 17 payable](/17 payable)
+    - [📂 18 send & receive ether](/18 send & receive ether)
+    - [📂 18.1 send transfer call](/18.1 send transfer call)
+    - [📂 19 call](/19 call)
+    - [📂 19.1 delegate call](/19.1 delegate call)
+    - [📂 20 call from another contract](/20 call from another contract)
+    - [📂 21 new](/21 new)
+    - [📂 22 try catch](/22 try catch)
+    - [📂 23 import](/23 import)
+    - [📂 24 library](/24 library)
+    - [📂 25 ABI](/25 ABI)
+    - [📂 26 hashing](/26 hashing)
+    - [📂 27 gas optimization](/27 gas optimization)
+    - [📂 28 unchecked math](/28 unchecked math)
+    - [📂 29 modifier inheritance](/29 modifier inheritance)
+    - [📂 30 self destruct](/30 self destruct)
+  - [📂 2_Apps](/2_Apps)
+    - [📂 01 ether wallet](/01 ether wallet)
+    - [📂 02 multisig wallet](/02 multisig wallet)
+    - [📂 03 cofee ERC20](/03 cofee ERC20)
+    - [📂 04 candy nft ERC721](/04 candy nft ERC721)
+  - [📂 3_Hack](/3_Hack)
+    - [📂 01 re-entrancy](/01 re-entrancy)
+    - [📂 02 overflow underflow](/02 overflow underflow)
+    - [📂 03 self destruct](/03 self destruct)
+    - [📂 04 storage collision](/04 storage collision)
+  - [📂 4_PROJECTS](/4_PROJECTS)
+    - [📄 attack-on-ppswap.md](/attack-on-ppswap.md)
+    - [📄 ethers-js-practice.md](/ethers-js-practice.md)
+    - [📄 ethers-js-storage.md](/ethers-js-storage.md)
+    - [📄 foundry-basics.md](/foundry-basics.md)
+    - [📂 foundry-tests](/foundry-tests)
+    - [📄 hardhat-fund-me.md](/hardhat-fund-me.md)
+    - [📄 hardhat-ganache.md](/hardhat-ganache.md)
+    - [📂 hardhat-lottery](/hardhat-lottery)
+    - [📄 hardhat-storage.md](/hardhat-storage.md)
+    - [📄 hardhat-web3-blog.md](/hardhat-web3-blog.md)
+    - [📄 remix-fund-me.md](/remix-fund-me.md)
+  - [📄 readme.md](/readme.md)
+  - [📄 update_readme.py](/update_readme.py)
+
 
 ### Helpful resources:
 - [soliditylang.org](https://docs.soliditylang.org/en/v0.8.19/solidity-by-example.html)

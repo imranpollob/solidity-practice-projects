@@ -2,10 +2,10 @@ import os
 
 text = ""
 
-def print_files_and_directories(current_dir, depth = 1):
+def print_files_and_directories(current_dir, depth = 0):
     global text
 
-    if depth == 3:
+    if depth == 2:
         return
     # print(depth)
     depth += 1
@@ -17,11 +17,9 @@ def print_files_and_directories(current_dir, depth = 1):
             continue
         
         if os.path.isfile(new_dir):
-            # print(f"{'  ' * depth}📄 {item}")
-            text += f"{'  ' * depth}📄 {item}\n"
+            text += f"{'  ' * depth}- [📄 {item}](/{item})\n"
         elif os.path.isdir(new_dir):
-            # print(f"{'  ' * depth}📂 {item}")
-            text += f"{'  ' * depth}📂 {item}\n"
+            text += f"{'  ' * depth}- [📂 {item}](/{item})\n"
             print_files_and_directories(new_dir, depth)
                      
 
@@ -31,13 +29,13 @@ if __name__ == "__main__":
     with open("README.md", "r", encoding="utf-8") as f:
         content = f.read()
         
-    start_index = content.find("```text")
-    end_index = content.rfind("```")
+    start_index = content.find("## Folder Structure")
+    end_index = content.rfind("### Helpful resources:")
     
     print(start_index, end_index)
     
     if start_index != -1:
-        text = "```text\n" + text
+        text = "## Folder Structure\n" + text + "\n\n"
         content = content[:start_index] + text + content[end_index:]
         
         with open("README.md", "w", encoding="utf-8") as f:

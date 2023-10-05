@@ -20,12 +20,12 @@ def print_files_and_directories(prev_dir="", current_dir="", depth=0):
 
         if os.path.isfile(new_dir):
             temp = current_dir.replace(base_dir, "")
-            a = f"{'  ' * depth}- [📄 {item}]({temp}/{item.replace(" ", "%20")})\n"
+            a = f"{'  ' * depth}- [📄 {item}]({temp}/{item.replace(' ', '%20')})\n"
             print(a)
             text += a
         elif os.path.isdir(new_dir):
             temp = current_dir.replace(base_dir, "")
-            b = f"{'  ' * depth}- [📂 {item}]({temp}/{item.replace(" ", "%20")})\n"
+            b = f"{'  ' * depth}- [📂 {item}]({temp}/{item.replace(' ', '%20')})\n"
             print(b)
             text += b
             print_files_and_directories(current_dir, new_dir, depth)

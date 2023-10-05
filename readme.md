@@ -1,5 +1,5 @@
 # Solidity Practice Projects
-The word "project" may not be appropriate here but the core idea is writing solidity code.
+The word "project" may not be appropriate here but the core idea is writing solidity code..
 
 ## Folder Structure
   - [📂 1_Intro](/1_Intro)

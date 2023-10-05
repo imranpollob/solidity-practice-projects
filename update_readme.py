@@ -31,9 +31,9 @@ def print_files_and_directories(prev_dir='', current_dir = '', depth = 0):
                      
 
 if __name__ == "__main__":
-    print_files_and_directories('', os.getcwd(), 0)
+    print_files_and_directories('', base_dir, 0)
 
-    with open("./README.md", "r", encoding="utf-8") as f:
+    with open(f"{base_dir}/README.md", "r", encoding="utf-8") as f:
         content = f.read()
         
     start_index = content.find("## Folder Structure")
@@ -43,7 +43,7 @@ if __name__ == "__main__":
         text = "## Folder Structure\n" + text + "\n\n"
         content = content[:start_index] + text + content[end_index:]
         
-        with open("./README.md", "w", encoding="utf-8") as f:
+        with open(f"{base_dir}/README.md", "w", encoding="utf-8") as f:
             f.write(content)
     
     

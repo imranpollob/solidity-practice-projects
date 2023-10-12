@@ -22,6 +22,10 @@ contract BuyMeACoffee {
         owner = msg.sender;
     }
 
+    function getEntries() public view returns (Entry[] memory) {
+        return entries;
+    }
+
     function buyACoffee(string memory _msg) public payable  {
         require(msg.value > 0, "Can't buy coffee for free!");
         entries.push(Entry(msg.sender, block.timestamp, _msg));

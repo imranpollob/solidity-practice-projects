@@ -19,14 +19,19 @@ describe("Testing", function () {
     }
   }
 
-  it("Should withdraw the total contract balance to the owner", async function () {
+  let owner, imran, pollob, tuly;
+  let buyMeACoffee;
+
+  beforeEach(async function () {
     // create some accounts
-    const [owner, imran, pollob, tuly] = await ethers.getSigners();
+    [owner, imran, pollob, tuly] = await ethers.getSigners();
 
     // deploy the contract
-    const buyMeACoffee = await ethers.deployContract("BuyMeACoffee");
+    buyMeACoffee = await ethers.deployContract("BuyMeACoffee");
     console.log("BuyMeACoffee contract address:", buyMeACoffee.target);
+  });
 
+  it("Should withdraw the total contract balance to the owner", async function () {
     // print the balance of each accounts
     const addresses = [owner, imran, pollob, tuly];
     console.log("--- Initial balance ---");
@@ -54,14 +59,12 @@ describe("Testing", function () {
     // check balance of the owner
     console.log("--- Owner balance: ---", await getEtherBalance(owner.address));
 
+    // print entries
+    const entries = await buyMeACoffee.getEntries();
+    console.log("--- Printing Entries ---");
+    await printEntries(entries);
+
     expect(await ethers.provider.getBalance(buyMeACoffee.target)).to.equal(0);
     expect(await ethers.provider.getBalance(owner)).to.greaterThan(ownerInitialBalance);
   });
 });
-
-async function main() {
-  // print entries
-  const entries = await buyMeACoffee.getEntries();
-  console.log("--- Printing Entries ---");
-  await printEntries(entries);
-}

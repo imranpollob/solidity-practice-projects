@@ -1,3 +1,6 @@
 [submodule "PROJECTS/foundry-tests/lib/forge-std"]
 	path = PROJECTS/foundry-tests/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "4_PROJECTS/foundry-buy-me-coffee/lib/forge-std"]
+	path = 4_PROJECTS/foundry-buy-me-coffee/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std

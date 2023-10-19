@@ -50,6 +50,8 @@ The word "project" may not be appropriate here but the core idea is writing soli
     - [📄 ethers-js-practice.md](/4_PROJECTS/ethers-js-practice.md)
     - [📄 ethers-js-storage.md](/4_PROJECTS/ethers-js-storage.md)
     - [📄 foundry-basics.md](/4_PROJECTS/foundry-basics.md)
+    - [📂 foundry-buy-me-coffee](/4_PROJECTS/foundry-buy-me-coffee)
+    - [📂 foundry-fund-me](/4_PROJECTS/foundry-fund-me)
     - [📂 foundry-tests](/4_PROJECTS/foundry-tests)
     - [📂 hardhat-buy-me-coffee](/4_PROJECTS/hardhat-buy-me-coffee)
     - [📄 hardhat-fund-me.md](/4_PROJECTS/hardhat-fund-me.md)
